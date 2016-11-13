@@ -24,9 +24,8 @@
                 <configuration>
                 	<url>http://127.0.0.1:8080/manager/text</url>
                     <uriEncoding>UTF-8</uriEncoding>
-                    <finalName>javaweb-shop</finalName>
                     <server>tomcat</server>
-                    <path>/</path>
+                    <path>/javaweb-shop</path>
                 </configuration>
             </plugin>
         </plugins>
@@ -88,11 +87,6 @@
   			<artifactId>jackson-databind</artifactId>
   			<version>2.6.4</version>
   		</dependency>
-	  	<dependency>
-		    <groupId>log4j</groupId>
-		    <artifactId>log4j</artifactId>
-		    <version>1.2.14</version>
-		</dependency>
   	</dependencies>
   
   
