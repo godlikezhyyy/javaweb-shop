@@ -24,8 +24,9 @@
                 <configuration>
                 	<url>http://127.0.0.1:8080/manager/text</url>
                     <uriEncoding>UTF-8</uriEncoding>
+                    <finalName>javaweb-shop</finalName>
                     <server>tomcat</server>
-                    <path>/javaweb-shop</path>
+                    <path>/</path>
                 </configuration>
             </plugin>
         </plugins>
